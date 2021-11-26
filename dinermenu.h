@@ -20,4 +20,4 @@ public:
 	Iterator* createIterator();
 };
 
-#endif // DINERMENU_H
+#endif

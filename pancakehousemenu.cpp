@@ -13,7 +13,7 @@ PancakeHouseMenu::PancakeHouseMenu() {
 
 void PancakeHouseMenu::addItem(string n, string d, bool v, double p) {
 	MenuItem* menuItem = new MenuItem(n, d, v, p);
-	menuItem.push_back(menuItem);
+	menuItems.push_back(menuItem);
 }
 
 list<MenuItem*> PancakeHouseMenu::getMenuItems() {

@@ -16,4 +16,4 @@ public:
 	void* next();
 };
 
-#endif // DINERMENUITERATOR_H
+#endif
