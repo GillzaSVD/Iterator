@@ -35,5 +35,5 @@ vector<MenuItem*> DinerMenu::getMenuItems() {
 }
 
 Iterator* DinerMenu::createIterator() {
-	return new DInerMenuIterator(menuItems);
+	return new DinerMenuIterator(menuItems);
 }
