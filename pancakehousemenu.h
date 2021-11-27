@@ -5,7 +5,7 @@
 #include <list>
 #include "menu.h"
 #include "menuitem.h"
-#include "pancakehousemenu.h"
+#include "pancakehousemenuiterator.h"
 
 class PancakeHouseMenu : public Menu
 {
