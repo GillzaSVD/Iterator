@@ -5,6 +5,7 @@
 #include <list>
 #include "menu.h"
 #include "menuitem.h"
+//does this file include itself?
 #include "pancakehousemenu.h"
 
 class PancakeHouseMenu : public Menu
